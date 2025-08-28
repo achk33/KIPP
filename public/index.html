@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="KIPP - Your Intelligent Robot Assistant for seamless event experiences with AI-powered navigation and personalized assistance." />
+    <meta name="keywords" content="AI robot, intelligent assistant, event navigation, robotics, automation, smart assistant" />
+    <meta name="author" content="KIPP Technologies" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/11.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/11.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/11.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/11.png" />
+    <meta name="theme-color" content="#64FFDA" />
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>KIPP - Robot</title>
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+      <div class="loader"></div>
+    </div>
+
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="index.html">
+              <img src="assets/11.png" alt="KIPP Logo" class="nav__logo__img">
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#rent">Works</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#ride">Ride</a></li>
+          <li><a href="#contact">Contact</a></li>
+        <!--- <li class="nav__links__btn">
+            <button class="btn">Sign Up</button>
+          </li>-->
+        </ul>
+        <div class="nav__btns">
+          
+        <!----  <button class="btn btn__primary">Sign Up</button>-->
+        </div>
+      </nav>
+      
+      <!-- Theme Toggle Button - Fixed Position Top Right -->
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <i class="ri-sun-line" id="theme-icon"></i>
+      </button>
+      
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="KIPP Robot Assistant" class="header__robot"/>
+        </div>
+        <div class="header__content">
+          <h1>Meet KIPP: Your Intelligent Robot Assistant</h1>
+          <p>
+            Revolutionizing event experiences with cutting-edge AI technology. KIPP provides real-time navigation, personalized assistance, and seamless interactions to elevate every gathering into an extraordinary experience.
+          </p>
+          <div class="header__actions">
+            <div class="header__buttons">
+              <a href="#service" class="btn">Request Demo</a>
+              <a href="#rent" class="btn btn__secondary">Learn More</a>
+            </div>
+            <div class="header__links">
+              <a href="#">
+                <img src="assets/store.png" alt="Download from App Store" />
+              </a>
+              <a href="#">
+                <img src="assets/play.png" alt="Get it on Google Play" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container steps__container" id="rent">
+      <p class="section__subheader">HOW IT WORKS</p>
+      <h2 class="section__header">KIPP's following 3 working steps</h2>
+      <div class="steps__grid">
+        <div class="steps__card">
+          <span><i class="ri-bookmark-3-fill"></i></span>
+          <h4>AI-Powered Interaction</h4>
+          <p>
+            Kipp engages with attendees through intuitive voice commands or touch interfaces. Visitors can ask Kipp questions, seek
+            directions, or request information about the event, exhibitors, or schedule.
+          </p>
+        </div>
+        <div class="steps__card">
+          <span><i class="ri-calendar-check-fill"></i></span>
+          <h4>Real-Time Navigation</h4>
+          <p>
+          Using advanced navigation systems, Kipp can move around the event venue autonomously. It guides attendees to their
+          desired locations, such as specific booths, conference rooms, or amenities, ensuring they never feel lost.
+          </p>
+        </div>
+        <div class="steps__card">
+          <span><i class="ri-map-pin-fill"></i></span>
+          <h4>Personalized Assistance</h4>
+          <p>
+            Kipp’s AI learns from interactions, allowing it to offer personalized suggestions based on attendees’ interests or past
+            queries. This customization enhances the visitor experience, making each interaction more relevant and helpful.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- KIPP Showcase Section -->
+    <section class="section__container showcase__container">
+      <p class="section__subheader">KIPP IN ACTION</p>
+      <h2 class="section__header">See KIPP Transform Events</h2>
+      <div class="showcase__grid">
+        <div class="showcase__card">
+          <div class="showcase__image">
+            <img src="1.jpg" alt="KIPP Robot Assistant in action at an event" />
+          </div>
+          <div class="showcase__content">
+            <h3>Interactive Event Assistance</h3>
+            <p>Watch KIPP seamlessly guide attendees and provide real-time information at live events.</p>
+          </div>
+        </div>
+        <div class="showcase__card">
+          <div class="showcase__image">
+            <img src="2.jpg" alt="KIPP Robot providing personalized assistance" />
+          </div>
+          <div class="showcase__content">
+            <h3>Advanced AI Navigation</h3>
+            <p>Experience how KIPP's intelligent navigation system helps visitors find exactly what they're looking for.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <div class="service__image">
+        <img src="assets/service.png" alt="service" />
+      </div>
+      <div class="service__content">
+        <p class="section__subheader">BEST SERVICES</p>
+        <h2 class="section__header">
+        Experience Seamless Events with Kipp's Smart Assistance
+        </h2>
+        <ul class="service__list">
+          <li>
+            <span><i class="ri-price-tag-3-fill"></i></span>
+            <div>
+              <h4>Tailored Solutions for Every Occasion</h4>
+              <p>
+              Whether it's a large conference or an intimate gathering, Kipp adapts to your event, ensuring seamless navigation and
+              personalized interaction for every guest.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-wallet-fill"></i></span>
+            <div>
+              <h4>Cutting-Edge Technology</h4>
+              <p>
+                With Kipp, you're investing in the latest AI and navigation technology, ensuring your event is supported by the most
+                advanced tools available.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-customer-service-fill"></i></span>
+            <div>
+              <h4>Reliable Support Anytime</h4>
+              <p>
+              Our team is available around the clock to assist with any setup or operational questions, guaranteeing that Kipp
+              performs flawlessly throughout your event.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section__container experience__container" id="ride">
+      <p class="section__subheader">CUSTOMER EXPERIENCE</p>
+      <h2 class="section__header">
+    Delivering exceptional events with Kipp's smart assistance
+      </h2>
+      <div class="experience__content">
+        <div class="experience__card">
+          <span><i class="ri-price-tag-3-fill"></i></span>
+          <h4>Customizable Features</h4>
+        </div>
+        <div class="experience__card">
+          <span><i class="ri-money-rupee-circle-fill"></i></span>
+          <h4>Affordable Solutions</h4>
+        </div>
+        <div class="experience__card">
+          <span><i class="ri-bank-card-fill"></i></span>
+          <h4>Advanced Technology</h4>
+        </div>
+        <div class="experience__card">
+          <span><i class="ri-award-fill"></i></span>
+          <h4>Exceptional Event Support</h4>
+        </div>
+        <div class="experience__card">
+          <span><i class="ri-customer-service-2-fill"></i></span>
+          <h4>24/7 Technical Support</h4>
+        </div>
+        <div class="experience__card">
+          <span><i class="ri-robot-line"></i></span>
+          <h4>Seamless Integration</h4>
+        </div>
+        <img src="assets/experience.png" alt="experience" />
+      </div>
+    </section>
+
+    <section class="section__container download__container" id="contact">
+      <div class="download__grid">
+        <div class="download__content">
+          <h2 class="section__header">CONTACT US</h2>
+          <h2 class="section__header">Phone: +212 642-033050</h2>
+          <p>
+          Feel free to add additional contact details like email addresses or office hours if needed!
+          </p>
+          
+        </div>
+        <div class="download__image">
+          <img src="assets/download.png" alt="download" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h4>Our Solutions</h4>
+          <ul class="footer__links">
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Robots</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Partners</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>About KIPP</h4>
+          <ul class="footer__links">
+            <li><a href="#">Why Kipp</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Investors</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Partner With Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <ul class="footer__links">
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Support Centers</a></li>
+            <li><a href="#">Guides</a></li>
+            <li><a href="#">Partner Network</a></li>
+            <li><a href="#">Engineers</a></li>
+            <li><a href="#">Developer</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Extras</h4>
+          <ul class="footer__links">
+            <li><a href="#">Service Options</a></li>
+            <li><a href="#">Technical Support</a></li>
+            <li><a href="#">Explore Solutions</a></li>
+            <li><a href="#">Partner Opportunities</a></li>
+            <li><a href="#">Latest Updates</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        <h4>KIPP</h4>
+        <p>Copyright © 2024. All rights reserved.</p>
+        <ul class="footer__socials">
+        <a href="https://x.com/Achraf_chky" title="Follow us on X">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+
+          <li>
+            <a href="https://github.com/achk33" title="View our GitHub"><i class="ri-github-fill"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/achraf-chaouki/" title="Connect on LinkedIn"><i class="ri-linkedin-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBJ7H3HhVer2x0DL-UgjZNbtbONEM_ZVUE",
+    authDomain: "kipp-315b3.firebaseapp.com",
+    projectId: "kipp-315b3",
+    storageBucket: "kipp-315b3.appspot.com",
+    messagingSenderId: "8328085810",
+    appId: "1:8328085810:web:ea97b06254f1c3197c972b",
+    measurementId: "G-D16T51F2HB"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+  </body>
+</html>
